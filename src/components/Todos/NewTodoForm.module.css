@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.control {
+  /* margin-top: 0.5rem; */
+  margin-right: 2rem;
+}
+
+.control input {
+  font: inherit;
+  font-weight: bold;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid rgb(184, 168, 168);
+  padding: 0.25rem;
+  width: 28vw;
+  height: 2rem;
+}
+
+.actions {
+  text-align: right;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #77002e;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: 1px solid #77002e;
+  border-radius: 10px;
+  font-weight: bold;
+}
